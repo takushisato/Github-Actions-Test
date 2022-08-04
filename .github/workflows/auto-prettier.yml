@@ -3,7 +3,7 @@ name: Prettier
 on: push
 
 env:
-  FILE_PATTERN: "src/**/*.{ts,tsx,js,jsx,vue}"
+  FILE_PATTERN: "src/**/**/**/*.{ts,tsx,js,jsx,vue}"
 
 jobs:
   lint:
