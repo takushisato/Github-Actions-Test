@@ -24,9 +24,9 @@ export default {
   data: () => ({
     items: [
       { no: 1, title: 'About us' },
-      { no: 2, title: "プライバシーポリシー" },
+      { no: 2, title: 'プライバシーポリシー' },
       { no: 3, title: '利用規約' },
-      { no: 4, title: "ログアウト" },
+      { no: 4, title: 'ログアウト' },
     ],
     closeOnContentClick: true,
   }),
